@@ -1,0 +1,105 @@
+body {background-color: #1d0d07; color:#fff;}
+.disclaimer {background-color: #4e2412;}
+.navbar-default{background: linear-gradient(to top, rgba(29,13,7,0), rgba(29,13,7,0.8));}
+#navbar-stripe{
+    background-color: #c45a2e;
+    border: 0;
+	margin-top:11px;
+	height:25px;
+}
+#footer-wrapper,.footer-button {background-color:#c45a2e}
+.footer-button:hover{background-color:#f98e34;}
+#navstripe-case-title {color:#fff;}
+#navbar li>a {color:#000; background-color:#f98e34;}
+#navbar li>a:hover{ background-color:#ffbe60;}
+
+#navbar li.active>a, #navbar li.active>a:hover, #navbar li.active>a:focus {
+    background-color: #ffbe60;
+	color:#fff;
+}
+.intro-text {color: #ffbe60; margin-top:12px;}
+.intro-text:hover {color: #fff; cursor: pointer;}
+.section-header {background-color: #f98e34;}
+.section-header {color:#000;}
+.videobtnwrap,.exhibbtnwrap{
+    background: linear-gradient(to right, rgba(249,142,52,1) 110px,  rgba(249,142,52,0));
+	}
+.exhibbtnwrap_clicked,.videobtnwrap_clicked{
+	color:#5d5951;
+    background: linear-gradient(to right, rgba(203,191,166,1) 110px, rgba(203,191,166,0));
+	}
+.videobtnwrap:hover,.exhibbtnwrap:hover,.exhibbtnwrap_clicked:hover,.videobtnwrap_clicked:hover{
+    background: linear-gradient(to left, rgba(255,190,96,0), rgba(255,190,96,1), rgba(255,190,96,1));
+	}
+.glyphicon-play-circle{color:#fff}
+.videobtnwrap:hover .glyphicon-play-circle{color:#ef984b;}
+.thumb{background-color: #c45a2e;}
+
+blockquote {border-color:#c45a2e;}
+blockquote footer{color:#f98e34;}
+
+#section1>.bg-image>.header-slide{background-image: url(../images/headers/symphony_jumbo_01.jpg); background-position: 50% 0%;}
+#section2>.bg-image>.header-slide{background-image: url(../images/headers/symphony_jumbo_02.jpg); background-position: 62% 0%;}
+#section3>.bg-image>.header-slide{background-image: url(../images/headers/symphony_jumbo_03.jpg); background-position: 75% 0%;}
+#section4>.bg-image>.header-slide{background-image: url(../images/headers/symphony_jumbo_04.jpg); background-position: 35% 30%;}
+#section5>.bg-image>.header-slide{background-image: url(../images/headers/symphony_jumbo_05.jpg); background-position: 50% 50%;}
+
+.ets-exhib-header,.ets-exhib-footer{background-color: #c45a2e;}
+.exhib-subheader{background-color: #f98e34;}
+.modal-content{background-color: #1d0d07;}
+
+.top-fade,.bottom-fade{height:6%; width:100%;}
+.top-fade{background:linear-gradient(to top, transparent, #1d0d07);}
+.bottom-fade{position:absolute; bottom:0; background:linear-gradient(to bottom, transparent, #1d0d07);}
+.violin{ position: relative; float:right; clear: right; left: 120px; margin-left: -126px;}
+
+#violin-slice1{width:232px;}
+#violin-slice2{width:263px;}
+#violin-slice3{width:225px;}
+#violin-slice4{width:323px;}
+#violin-slice5{width:293px;}
+#violin-slice6{width:356px;}
+
+#vijay-img{width:214px}
+#ss-financials{background:#643825}
+#ss-financials .secondbg{background:#402317}
+#ss-financials td{border:0}
+
+#ss-headlines{}
+.newsquote{font-size:38px; margin-bottom:40px; text-align: center;}
+.newsquote footer{color:#f98e34; text-align:right; font-size:18px;}
+#newsquote1,#newsquote2,#newsquote3,#newsquote4,#newsquote5{font-family: Georgia, serif;}
+
+@media (max-width: 1160px){
+	.violinb{ left: 38px; margin-left: -34px;}
+}
+@media (max-width: 1080px){
+		.violinb{ left: 30px; margin-left: -26px;}
+}
+@media (max-width: 929px){
+		.violinb{ left: 20px; margin-left: -16px;}
+
+}
+@media (max-width: 840px){
+				.violinb{ left: 0; margin-left: 4px;}
+}
+@media (max-width: 620px){
+#violin-slice1b{width:282px;}
+#violin-slice2b{width:228px;}
+#violin-slice3b{width:318px;}
+#violin-slice4b{width:208px;}
+#violin-slice5b{width:186px;}
+#violin-slice6b{width:192px;}
+}
+@media (max-width: 520px){
+	#vijay-img{width:160px}
+}
+@media (max-width: 499px){
+	.newsquote {font-size: 32px;}
+#violin-slice1b{width:188px;}
+#violin-slice2b{width:152px;}
+#violin-slice3b{width:212px;}
+#violin-slice4b{width:139px;}
+#violin-slice5b{width:124px;}
+#violin-slice6b{width:128px;}
+}
