@@ -17,7 +17,7 @@ section>.narrow{background-color: #FFF;}
 
 .blockquote{border-left-color:#305C62;}
 blockquote p{color:#43818A;}
-.blockquote footer{color:#e22424;}
+.blockquote footer{color:#56def3;}
 
 .videobtnwrap,.exhibbtnwrap{color:#305C62; background: linear-gradient(to left, rgba(196,230,235,0) , rgba(196,230,235,1) , rgba(196,230,235,1));}
 .videobtnwrap:hover,.exhibbtnwrap:hover,.exhibbtnwrap_clicked:hover,.videobtnwrap_clicked:hover{color:#fff; background: linear-gradient(to left, rgba(132,191,211,0), rgba(132,191,211,1), rgba(132,191,211,1)); cursor:pointer;}
