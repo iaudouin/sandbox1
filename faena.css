@@ -1,7 +1,7 @@
 body {background-color: #FFF; color:#ccc}
 section>.narrow{background-color: #FFF;}
 .header-bg{background-color: #84BFD3;}
-.body-footer,.navbar-bg{background-color:#43818A;}
+.body-footer,.navbar-bg{background-color:#444444;}
 
 .bodytop{background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.8));}
 .footer-bottom{background-color:#84BFD3; color:#fff;}
